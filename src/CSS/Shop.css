@@ -1,0 +1,36 @@
+.slick-prev,
+.slick-next {
+  font-size: 24px;
+  color: black;
+}
+
+.slick-prev {
+  left: -30px;
+}
+
+.slick-next {
+  right: -30px;
+}
+
+.shop-cards{
+    margin: 50px;
+}
+
+
+/* .gif-container{
+    width: 100vw;
+    height: 100vh;
+    background: url('https://64.media.tumblr.com/59e01ba7272d834820a830c81cf2b624/3f7f07beb98b5529-86/s500x750/240f7553208e1e561129bc17af7c0e812d2371f1.gif');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .slick-slide {
+    margin-right: 2px; 
+} */
+  
+/* .slick-slide:last-child {
+    margin-right: 0;
+}
+   */
