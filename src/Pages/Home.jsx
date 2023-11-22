@@ -6,7 +6,7 @@ function Home() {
     <div>
       <Carousel />
       <hr style={{ marginTop: "50px" }} />
-      <div className="home-about">
+      <div className="home-about" id="about">
         <h1
           style={{
             display: "flex",

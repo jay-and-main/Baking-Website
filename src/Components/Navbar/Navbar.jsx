@@ -5,6 +5,7 @@ import cart_icon from "../Assets/cart_icon.png";
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
 
+
 function Navbar() {
   const [menu, setMenu] = useState("shop");
   const [underline, setUnderline] = useState(false);
@@ -52,8 +53,8 @@ function Navbar() {
           </Link>
           {(menu === "shop") && <hr />}
         </li>
-        <li onClick={handleAbout}>ABOUT{menu === "about" && <hr />}</li>
-        <li onClick={handleContact}>CONTACT{menu === "contact" && <hr />}</li>
+        <li onClick={handleAbout}><a href="/#about" style={{textDecoration:"none"}}>ABOUT</a>{menu === "about" && <hr />}</li>
+        <li onClick={handleContact}><Link to="/contact" style={{textDecoration:"none"}}>CONTACT</Link>{menu === "contact" && <hr />}</li>
         <li onClick={handleLogin}>
           <Link to="/login" style={{ textDecoration: "none" }}>
             LOGIN
