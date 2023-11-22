@@ -89,7 +89,7 @@ function CartItems() {
               <p>₹ {getTotalCartAmount()}</p>
             </div>
           </div>
-          <button>Proceed to Checkout</button>
+          <button onClick={()=>{alert("Paid successfully!");}}>Proceed to Checkout</button>
         </div>
       </div>
     </div>

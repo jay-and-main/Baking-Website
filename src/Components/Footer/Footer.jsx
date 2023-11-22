@@ -33,12 +33,12 @@ function Footer() {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-body-secondary">
+            <a href="/#about" className="nav-link px-2 text-body-secondary">
               About
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link px-2 text-body-secondary">
+            <a href="/contact" className="nav-link px-2 text-body-secondary">
               Contact
             </a>
           </li>
